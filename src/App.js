@@ -1,11 +1,9 @@
 //Styles
 import "./App.css";
+import { Container } from "react-bootstrap";
 
 //React router
 import { BrowserRouter, Route } from "react-router-dom";
-
-//Bootstrap
-import { Container } from "react-bootstrap";
 
 //Components
 import Header from "./Components/Header/Header";
