@@ -125,10 +125,10 @@ const OrderScreen = ({ match, history }) => {
               </p>
               {order.isDelivered ? (
                 <Message variant="success">
-                  Delivered on {order.deliveredAt}
+                  Shipped on {order.deliveredAt}
                 </Message>
               ) : (
-                <Message variant="danger">Not Sent</Message>
+                <Message variant="danger">Not Shipped</Message>
               )}
             </ListGroup.Item>
 
@@ -232,7 +232,7 @@ const OrderScreen = ({ match, history }) => {
                       className="btn btn-block"
                       onClick={deliverHandler}
                     >
-                      Mark As Sent
+                      Mark As Shipped
                     </Button>
                   </ListGroup.Item>
                 )}

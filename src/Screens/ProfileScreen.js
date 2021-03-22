@@ -135,7 +135,7 @@ const ProfileScreen = ({ location, history }) => {
                   <th>DATE</th>
                   <th>TOTAL</th>
                   <th>PAID</th>
-                  <th>SENT</th>
+                  <th>SHIPPED</th>
                 </tr>
               </thead>
               <tbody>
@@ -174,7 +174,7 @@ const ProfileScreen = ({ location, history }) => {
                             textAlign: "center",
                           }}
                         >
-                          NOT SENT
+                          NOT SHIPPED
                         </p>
                       )}
                     </td>
