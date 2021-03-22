@@ -44,7 +44,7 @@ const OrderListScreen = ({ history }) => {
               <th>DATE</th>
               <th>TOTAL</th>
               <th>PAID</th>
-              <th>DELIVERED</th>
+              <th>SENT</th>
               <th></th>
             </tr>
           </thead>
@@ -70,7 +70,7 @@ const OrderListScreen = ({ history }) => {
                       {order.deliveredAt.substring(0, 10)}
                     </div>
                   ) : (
-                    <p style={{ color: "red" }}>Not Delivered</p>
+                    <p style={{ color: "red" }}>Not Sent</p>
                   )}
                 </td>
                 <td>

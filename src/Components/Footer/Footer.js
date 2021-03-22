@@ -4,14 +4,12 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
-  const d = new Date();
-
   return (
     <footer className="footer">
       <Container>
         <Row>
           <Col className="text-center py-3">
-            Copyright &copy; ProShop {d.getFullYear()}{" "}
+            Copyright &copy; ProShop {new Date().getFullYear()}{" "}
           </Col>
         </Row>
       </Container>

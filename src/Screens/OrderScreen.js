@@ -128,7 +128,7 @@ const OrderScreen = ({ match, history }) => {
                   Delivered on {order.deliveredAt}
                 </Message>
               ) : (
-                <Message variant="danger">Not Delivered</Message>
+                <Message variant="danger">Not Sent</Message>
               )}
             </ListGroup.Item>
 
@@ -232,7 +232,7 @@ const OrderScreen = ({ match, history }) => {
                       className="btn btn-block"
                       onClick={deliverHandler}
                     >
-                      Mark As Delivered
+                      Mark As Sent
                     </Button>
                   </ListGroup.Item>
                 )}
