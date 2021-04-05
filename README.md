@@ -31,7 +31,7 @@ You can register a new user if you would like or use one of the the following:
 
 >Paypal sandbox user : pedro@example.com	Password: 123456789
 
-##### Live version [HERE](https://proshop-ecommerce88.herokuapp.com/)
+##### Live version [HERE](https://proshop88.netlify.app/)
 
 ##### Link for the back end repo [HERE](https://github.com/Pedro-Goncal/proshop-eCommerce-MERN-api)
 #### For more info please visit my [LinkedIn](https://www.linkedin.com/in/pedro-goncalves88/)
